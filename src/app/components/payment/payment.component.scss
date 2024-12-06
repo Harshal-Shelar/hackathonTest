@@ -1,0 +1,53 @@
+.mainClass{
+    margin: 4rem auto;
+    width: 80%;
+
+    .row{
+        .payment{
+            h5{
+                color: rgb(44, 44, 151);
+            }
+            form{
+                .form-group{
+                    align-items: center;
+                    label{
+                        font-size: 15px;
+                        letter-spacing: 0.5px;
+                        margin-bottom: 0.2rem;
+                        margin-left: 0.5rem;
+                    }
+
+                    
+                }
+                .cardDetails{
+                    .row{
+                        .form-group{
+                            .form-control{
+                                margin: 0.5rem 0;
+                                padding: 0.4rem;
+                                font-size: 13px;
+                            }
+                            small{
+                                color: red;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .paymentBtns{
+                margin-top: 2rem;
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+
+                .btn{
+                    border-radius: 5px;
+                    padding: 0.5rem 2rem;
+                    font-size: 15px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

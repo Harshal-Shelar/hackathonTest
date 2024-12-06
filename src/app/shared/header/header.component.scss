@@ -1,0 +1,21 @@
+.mainClass{
+    background-color: rgb(44, 44, 151);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .logout{
+        button{
+            font-weight: 500;
+            border-radius: 10px;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.mainClass {
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem auto;
+  display: flex;
+  // justify-content: center;
+  gap: 5rem;
+
+  .shippingForm {
+    width: 50%;
+    h4{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 0 0rem 2rem;
+      color: rgb(4, 62, 151);
+    }
+
+    form {
+      .profile {
+        text-align: center;
+        img {
+          height: 5rem;
+          width: 5rem;
+        }
+      }
+      .form-group {
+        margin: 0.5rem 0;
+
+        label {
+          font-size: 13px;
+          letter-spacing: 0.5px;
+          margin-bottom: 0.2rem;
+        }
+
+        .form-control {
+          height: 35px;
+          font-size: 13px;
+        }
+
+        small {
+          color: red;
+        }
+      }
+      .loginBtn {
+        text-align: right;
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        .goToCartBtn {
+          border: 1px solid rgb(4, 62, 151);
+          border-radius: 10px;
+          font-size: 15px;
+          width: 100%;
+          color: white;
+          padding: 0.5rem 2rem;
+          background-color: rgb(4, 62, 151);
+        }
+
+        .paymentBtn {
+          background-color: yellow;
+          width: 100%;
+          color: black;
+          font-weight: 500;
+          font-size:15px;
+          padding: 0.5rem 2rem;
+          border-radius: 10px;
+          border: 1px solid yellow;
+        }
+      }
+    }
+  }
+  .orderTotal {
+    width: 50%;
+  }
+}

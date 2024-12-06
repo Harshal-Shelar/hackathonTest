@@ -1,0 +1,13 @@
+.mainClass{
+    width: 80%;
+    margin: 1rem auto 1rem;
+
+    span{
+        cursor: pointer;
+        margin-right: 0.5rem;
+    }
+
+    span:hover{
+        color: blue
+    }
+}

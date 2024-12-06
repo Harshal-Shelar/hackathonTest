@@ -1,0 +1,84 @@
+.mainClass{
+    .container{
+        h1{
+            color: rgb(44, 44, 151);
+            text-align: center;
+            font-size: 30px;
+            margin: 3rem 0 1rem;
+        }
+
+        .cartIcon{
+            align-items: center;
+            display: flex;
+            justify-content: right;
+            cursor: pointer;
+            .cartBtn{
+                background-color: transparent;
+                color: rgb(44, 44, 151);
+                border: 1px solid transparent;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            .col-lg-3{
+
+                .card{
+                    margin: 0.5rem 0.1rem;
+                    padding: 1rem;
+                    border: 1px solid rgb(224, 224, 224);
+                    box-shadow: 0px 0px 15px 2px rgb(224, 224, 224);
+                    border-radius: 10px;
+ 
+                    .mobileImg{
+                        width: 100%;
+                        display: block;
+                        text-align: center;
+                        margin-bottom: 1rem;
+
+                        img{
+                            height: 6rem;
+                            width: auto;
+                        }
+                    }
+                    div{
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+                    .cartButton{
+                        background-color: rgb(44, 44, 151);
+                        border: 1px solid rgb(44, 44, 151);
+                        color: white;
+                        border-radius: 10px;
+                        padding: 0.5rem;
+                        font-size: 15px;
+                        bottom: 0;
+                        margin-top: 1rem;
+                    }
+
+                    .cartButton:hover{
+                        background-color: white;
+                        color: rgb(44, 44, 151);
+                        transition: 0.1s;
+                        border: none;
+                        box-shadow: 0px 0px 15px 0px rgb(90, 90, 218);
+                    }
+
+                    .disabledCart{
+                        pointer-events: none;
+                        cursor: not-allowed;
+                    }
+                }
+            }
+        }
+
+        .paginationClass{
+            margin-top: 1rem;
+            text-align: right;
+        }
+    }
+}

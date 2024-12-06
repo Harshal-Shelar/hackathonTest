@@ -1,0 +1,117 @@
+.mainClass {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 1rem auto;
+
+  .row {
+    h3 {
+      color: rgb(44, 44, 151);
+      text-align: left;
+      font-size: 30px;
+      margin: 3rem 0;
+    }
+    .container {
+      width: 50%;
+      height: 80vh;
+      overflow: auto;
+
+      .cartBtn {
+        background-color: transparent;
+        color: rgb(44, 44, 151);
+        border: 1px solid transparent;
+        font-size: 15px;
+      }
+      .row {
+        // display: flex;
+        // justify-content: center;
+        .col-lg-12 {
+          .card {
+            margin: 0.5rem 0.1rem;
+            padding: 1rem;
+            box-shadow: 0px 0px 15px 2px rgb(231, 231, 231);
+            border: 1px solid rgb(231, 231, 231);
+            border-radius: 10px;
+
+            .imgAndInfo{
+                gap: 3rem;
+
+                .proImg{
+                    
+                    img{
+                        height: 10rem;
+                        width: auto;
+                    }
+                }
+            }
+            .cartButton {
+              background-color: rgb(151, 44, 44);
+              border: 1px solid rgb(151, 44, 44);
+              color: white;
+              border-radius: 10px;
+              padding: 0.5rem;
+              font-size: 12px;
+              bottom: 0;
+              margin-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .orderToatl {
+      display: inline;
+      width: 50%;
+      .placeOrder {
+        margin: 2rem 0;
+        display: flex;
+        gap: 1rem;
+        
+        .placeOrderBtn {
+          background-color: yellow;
+          width: 100%;
+          color: black;
+          font-weight: 500;
+          font-size: 15px;
+          padding: 0.7rem 0;
+          border-radius: 10px;
+          border: 1px solid yellow;
+        }
+        .goToListBtn {
+          background-color: rgb(44, 44, 151);
+          width: 100%;
+          color: white;
+          font-weight: 500;
+          font-size: 15px;
+          padding: 0.5rem 0;
+          border-radius: 10px;
+          border: 1px solid rgb(44, 44, 151);
+        }
+
+        .placeOrderBtn:hover {
+          background-color: rgb(173, 173, 10);
+          transition: 0.3s;
+        }
+        .goToListBtn:hover {
+          background-color: rgb(26, 26, 100);
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(229, 229, 229);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 216, 216);
+  border-radius: 10px;
+}

@@ -1,0 +1,87 @@
+<app-breadcrumb [breadcrumb]="breadcrumb"></app-breadcrumb>
+<div class="mainClass">
+  <div class="row col-12">
+    <div class="payment col-lg-6">
+      <h5>Payment Methods</h5>
+      <form>
+        <div class="form-group">
+          <input type="radio" name="payment" (change)="radioCheck($event)" class="form-check-input" (click)="opencardInfo = false" id="payment1" checked/>
+          <label for="payment1">Pay On Delivery</label>
+        </div>
+        <div class="form-group">
+          <input type="radio" name="payment" (change)="radioCheck($event)" class="form-check-input" id="payment2" (click)="opencardInfo = true"/>
+          <label for="payment2">Credit/Debit Card</label>
+        </div>
+        @if (opencardInfo == true ) {
+            <form [formGroup]="paymentForm">
+
+                <div class="cardDetails">
+                  <div class="row col-12">
+                    <div class="form-group col-lg-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Card Number"
+                        formControlName="card"
+                        minlength="12"
+                        maxlength="12"
+                      />
+                      @if (isSubmitted || (paymentForm.get('card')?.errors && paymentForm.get('card')?.touched)) {
+                          @if (f['card'].errors?.['required']) {
+                              <small>Card Number is Required</small>
+                          }
+                          @if (f['card'].errors?.['pattern']) {
+                              <small>Enter Only Numbers</small>
+                          }
+                          @if (f['card'].errors?.['minlength']) {
+                              <small>Card Number must be of minimum length of 12</small>
+                          }
+                      }
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input type="text"  class="form-control" formControlName="date" placeholder="MM/YY" />
+                      @if (isSubmitted || (paymentForm.get('date')?.errors && paymentForm.get('date')?.touched)) {
+                        @if (f['date'].errors?.['required']) {
+                            <small>Card Number is Required</small>
+                        }
+                        @if (f['card'].errors?.['pattern']) {
+                            <small>Enter Only Numbers</small>
+                        }
+                    }
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input type="password" maxlength="3" class="form-control" formControlName="cvv" placeholder="CVV" />
+                      @if (isSubmitted || (paymentForm.get('cvv')?.errors && paymentForm.get('cvv')?.touched)) {
+                        @if (f['cvv'].errors?.['required']) {
+                            <small>CVV is Required</small>
+                        }
+                        @if (f['cvv'].errors?.['pattern']) {
+                            <small>Enter Only Numbers</small>
+                        }
+                        @if (f['cvv'].errors?.['minlength']) {
+                            <small>CVV must be of minimum length of 3</small>
+                        }
+                    }
+                    </div>
+                  </div>
+                  
+                </div>
+            </form>
+        }
+        <div class="paymentBtns col-lg-12">
+            <button class="btn btn-secondary" routerLink="/list">Cancel Payment</button>
+            @if(opencardInfo == true) {
+                <button class="btn btn-primary" (click)="navigateToFinal()">Make Payment and Place Order</button>
+            }
+            @if(opencardInfo != true) {
+                <button class="btn btn-primary" (click)="navigateToFinalCOD()">Place Order</button>
+            }
+          </div>
+
+      </form>
+    </div>
+    <div class="orderDetails col-lg-6">
+      <app-order-total></app-order-total>
+    </div>
+  </div>
+</div>

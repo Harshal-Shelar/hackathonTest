@@ -1,0 +1,33 @@
+<div class="mainClass">
+    <h3>Order Summary</h3>
+    <div class="orderTotal">
+        <div class="row col-12">
+            <div class="col-lg-8">
+                <h6>Product Total : </h6> 
+            </div>
+            <div class="col-lg-4">
+                <h6>{{orderTotal | currency : 'INR'}}</h6>
+            </div>
+            <div class="col-lg-8">
+               <h6>Tax : </h6>
+            </div>
+
+            <div class="col-lg-4">
+                <h6>{{tax | currency : 'INR'}}</h6>
+            </div>
+            <div class="col-lg-8">
+                <h6>Shipping Charges : </h6> 
+            </div>
+            <div class="col-lg-4">
+                <h6>{{shippingCharges | currency : 'INR'}}</h6>
+            </div>
+            <hr />
+            <div class="col-lg-8">
+                <h6>Order Total : </h6> 
+            </div>
+            <div class="col-lg-4">
+                <h6 style="font-weight: bold;">{{totalAmount | currency :'INR'}}</h6>
+            </div>
+        </div>
+    </div>
+</div>

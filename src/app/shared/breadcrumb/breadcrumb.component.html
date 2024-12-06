@@ -1,0 +1,6 @@
+<div class="mainClass">
+    <span routerLink="/"> Dashboard</span>
+    @for (item of breadcrumb; track $index) {
+        <span routerLink="/{{item?.url}}"> > {{item?.name}}</span>
+    }
+</div>
