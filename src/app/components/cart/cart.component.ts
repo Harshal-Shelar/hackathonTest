@@ -34,7 +34,7 @@ export class CartComponent {
     
   }
 
-  removeFromCart(item:any){
-    this.productArray.splice(item?.id, 1)
+  removeFromCart(item:any, index:any){
+    this.productArray.splice(index, 1)
   }
 }

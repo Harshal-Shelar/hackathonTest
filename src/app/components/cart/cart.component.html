@@ -2,6 +2,7 @@
 <div class="mainClass">
   <div class="row col-12">
     <h3>Cart Page</h3>
+
       <div class="container col-lg-6">
         <button class="cartBtn">Total Products in Cart : <b>{{productArray.length}}</b> </button>
         <div class="row col-12">
@@ -33,7 +34,7 @@
                         </svg>
                         }@else{ }
                       </div>
-                      <button class="cartButton" (click)="removeFromCart(item)">
+                      <button class="cartButton" (click)="removeFromCart(item, $index)">
                         Remove From cart
                       </button>
                     </div>
@@ -45,7 +46,7 @@
         </div>
       </div>
       <div class="orderToatl col-lg-6">
-        <app-order-total></app-order-total>
+        <app-order-total [productArray]="productArray"></app-order-total>
         <div class="placeOrder">
           <button class="goToListBtn" routerLink="/list">Go To List</button>
           <button class="placeOrderBtn" routerLink="/userForm">Place Order</button>

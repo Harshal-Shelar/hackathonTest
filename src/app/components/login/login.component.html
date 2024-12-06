@@ -1,0 +1,36 @@
+<div class="mainClass">
+    <form [formGroup]="loginForm">
+        <h3>Login Form</h3>
+        <div class="row col-12">
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label for="">Email / Username</label>
+                    <input type="text" class="form-control" formControlName="username">
+                    @if (isSubmitted || (loginForm.get('username')?.errors && loginForm.get('username')?.touched)) {
+                        @if (f['username'].errors?.['required']) {
+                            <small>Username is Required</small>
+                        }
+                    }
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" formControlName="password" minlength="8" maxlength="12">
+                    @if (isSubmitted || (loginForm.get('password')?.errors && loginForm.get('password')?.touched)) {
+                        @if (f['password'].errors?.['required']) {
+                            <small>Password is Required</small>
+                        }
+                        @if (f['password'].errors?.['minlength']) {
+                            <small>Password Must be of minimum length 8</small>
+                        }
+                        @if (f['password'].errors?.['maxlength']) {
+                            <small>Password Must be of maximum length 12</small>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="loginBtn">
+                <button class="btn btnLogin" (click)="login()">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>

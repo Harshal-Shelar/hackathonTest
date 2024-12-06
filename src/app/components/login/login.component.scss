@@ -1,0 +1,44 @@
+.mainClass {
+  margin: 3rem auto;
+  width: 30%;
+
+  
+
+  form {
+    border: 1px solid rgb(241, 241, 241);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgb(241, 241, 241);
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0 0rem 2rem;
+        color: rgb(4, 62, 151);
+      }
+    .row {
+      .col-lg-12 {
+        .form-group {
+          margin: 1rem 0;
+          label {
+            letter-spacing: 0.5px;
+          }
+
+          small {
+            color: red;
+          }
+        }
+      }
+
+      .loginBtn {
+        text-align: right;
+        .btnLogin {
+          border-radius: 10px;
+          background-color: rgb(44, 44, 151);
+          color: white;
+          padding: 0.5rem 2rem;
+        }
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@
     <div class="row col-12">
       @for (item of prodductList | paginate: { itemsPerPage: 8, currentPage:
       page }; track $index) {
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
         <div class="card">
           <div class="mobileImg">
             <img src="{{ item?.img }}" alt="mobiles" />
@@ -112,7 +112,7 @@
             }"
             (click)="addToCart(item); addToCartBtn(item)"
           >
-          {{ item?.inCart ? 'Remove from Cart' : 'Add to Cart' }}
+          {{ item?.inCart ? 'Product Added to Cart' : 'Add to Cart' }}
           </button>
         </div>
       </div>

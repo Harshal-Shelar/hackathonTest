@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { SharedService } from '../../services/shared.service';
 import { CurrencyPipe } from '@angular/common';
 
@@ -15,6 +15,7 @@ export class OrderTotalComponent {
   totalAmount : any = 0;
   tax : any = 540;
   shippingCharges : any = 40;
+  @Input() productArray : any = [];
 
   constructor(private sharedService : SharedService){}
 
@@ -24,4 +25,8 @@ export class OrderTotalComponent {
     });
     this.totalAmount = this.orderTotal + this.shippingCharges + this.tax
   }
+
+  // ngOnChanges(){
+  //   this.productArray.map((price:any)=>{return this.orderTotal = this.orderTotal + parseInt(price?.price)})
+  // }
 }

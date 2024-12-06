@@ -2,19 +2,25 @@
   width: 80%;
   padding: 1rem;
   margin: 1rem auto;
-  display: flex;
+  // display: flex;
   // justify-content: center;
-  gap: 5rem;
+  
+
+  h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0rem 2rem;
+    color: rgb(4, 62, 151);
+  }
 
   .shippingForm {
     width: 50%;
-    h4{
-      text-align: center;
-      font-size: 40px;
-      font-weight: bold;
-      margin: 0 0rem 2rem;
-      color: rgb(4, 62, 151);
-    }
+    border: 1px solid rgb(241, 241, 241);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgb(241, 241, 241);
+    
 
     form {
       .profile {

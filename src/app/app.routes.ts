@@ -5,9 +5,11 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { UserFormComponent } from './components/user-form/user-form.component';
 import { PaymentComponent } from './components/payment/payment.component';
 import { OrderPlacedComponent } from './components/order-placed/order-placed.component';
+import { LoginComponent } from './components/login/login.component';
 
 export const routes: Routes = [
-    {path : '', redirectTo : 'list', pathMatch : 'full'},
+    {path : '', redirectTo : 'login', pathMatch : 'full'},
+    {path : 'login', component : LoginComponent},
     {path : 'list', component : ProductListComponent},
     {path : 'cart', component : CartComponent},
     {path : 'pageNotFound', component : PageNotFoundComponent},

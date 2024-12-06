@@ -9,7 +9,7 @@ export class AuthService {
   constructor(private sharedService : SharedService,@Inject(PLATFORM_ID) private platformId: Object) { }
 
   geAuthToken():any{
-    let token = this.sharedService.generateUUID();
+    let token : any = this.getItem('token');
     this.setItem("token",token)
     return token
   }

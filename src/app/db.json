@@ -1,28 +1,252 @@
 {
-    "users": [
-      { "id": 1, "inCart" : false, "name": "Iris Q12", "Company" : "Iris", "price"  : "50000", "stock":"Yes", "img":"https://api.thechennaimobiles.com/1719121334790.webp"},
-      { "id": 2, "inCart" : false, "name": "Nokia W23", "Company" : "Nokia", "price"  : "10000", "stock":"No", "img":"https://www.top10mobileshop.com/images/top10mobiles.com/thumbnail/product/2024/08/795330468202408120724.jpg"},
-      { "id": 3, "inCart" : false, "name": "Techno E34", "Company" : "Techno", "price"  : "20000", "stock":"No", "img":"https://www.samsungplaza.com.np/public/files/437D725739BA59F-SM-F956_ZFold6_Openback.png"},
-      { "id": 4, "inCart" : false, "name": "Oppo R45", "Company" : "Oppo", "price"  : "30000", "stock":"Yes", "img":"https://www.neostore.com.np/assets/uploads/s23.jpg"},
-      { "id": 5, "inCart" : false, "name": "Vivo T56", "Company" : "Vivo", "price"  : "40000", "stock":"Yes", "img":"https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"},
-      { "id": 6, "inCart" : false, "name": "IPhone Y67", "Company" : "IPhone", "price"  : "50000", "stock":"No", "img":"https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"},
-      { "id": 7, "inCart" : false, "name": "Jio U78", "Company" : "Jio", "price"  : "60000", "stock":"Yes", "img":"https://singhagiri-prod.s3.us-east-1.amazonaws.com/products/thumbnails/Untitled%20design%20(40).webp"},
-      { "id": 8, "inCart" : false, "name": "Iris I89", "Company" : "Iris", "price"  : "70000", "stock":"Yes", "img":"https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-16-Pro-Max/Desert-Titanium/Apple-iPhone-16-Pro-Max-Desert-Titanium-thumbnail.png"},
-      { "id": 9, "inCart" : false, "name": "Techno P90", "Company" : "Techno", "price"  : "80000", "stock":"No", "img":"https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"},
-      { "id": 9, "inCart" : false, "name": "Techno O91", "Company" : "Techno", "price"  : "80000", "stock":"No", "img":"https://s3.ap-south-1.amazonaws.com/happimobiles/product-main-images/happi_mobiles_redmi_a3x_5g_ocean_green_main_image.webp"},
-      { "id": 10, "inCart" : false, "name": "Oppo A12", "Company" : "Oppo", "price"  : "90000", "stock":"No", "img":"https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"},
-      { "id": 11, "inCart" : false, "name": "Vivo R72", "Company" : "Vivo", "price"  : "25000", "stock":"Yes", "img":"https://www.neostore.com.np/assets/uploads/s23.jpg"},
-      { "id": 12, "inCart" : false, "name": "Iris D82", "Company" : "Iris", "price"  : "50000", "stock":"Yes", "img":"https://api.thechennaimobiles.com/1719121334790.webp"},
-      { "id": 13, "inCart" : false, "name": "Nokia S22", "Company" : "Nokia", "price"  : "10000", "stock":"No", "img":"https://www.top10mobileshop.com/images/top10mobiles.com/thumbnail/product/2024/08/795330468202408120724.jpg"},
-      { "id": 14, "inCart" : false, "name": "Techno L09", "Company" : "Techno", "price"  : "20000", "stock":"No", "img":"https://www.samsungplaza.com.np/public/files/437D725739BA59F-SM-F956_ZFold6_Openback.png"},
-      { "id": 15, "inCart" : false, "name": "Oppo S22", "Company" : "Oppo", "price"  : "30000", "stock":"Yes", "img":"https://www.neostore.com.np/assets/uploads/s23.jpg"},
-      { "id": 16, "inCart" : false, "name": "Vivo F46", "Company" : "Vivo", "price"  : "40000", "stock":"Yes", "img":"https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"},
-      { "id": 17, "inCart" : false, "name": "IPhone H89", "Company" : "IPhone", "price"  : "50000", "stock":"No", "img":"https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"},
-      { "id": 18, "inCart" : false, "name": "Jio M87", "Company" : "Jio", "price"  : "60000", "stock":"Yes", "img":"https://singhagiri-prod.s3.us-east-1.amazonaws.com/products/thumbnails/Untitled%20design%20(40).webp"},
-      { "id": 19, "inCart" : false, "name": "Iris S22", "Company" : "Iris", "price"  : "70000", "stock":"Yes", "img":"https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-16-Pro-Max/Desert-Titanium/Apple-iPhone-16-Pro-Max-Desert-Titanium-thumbnail.png"},
-      { "id": 20, "inCart" : false, "name": "Techno N87", "Company" : "Techno", "price"  : "80000", "stock":"No", "img":"https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"},
-      { "id": 21, "inCart" : false, "name": "Techno T51", "Company" : "Techno", "price"  : "80000", "stock":"No", "img":"https://s3.ap-south-1.amazonaws.com/happimobiles/product-main-images/happi_mobiles_redmi_a3x_5g_ocean_green_main_image.webp"},
-      { "id": 22, "inCart" : false, "name": "Oppo E32", "Company" : "Oppo", "price"  : "90000", "stock":"No", "img":"https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"},
-      { "id": 23, "inCart" : false, "name": "Vivo K12", "Company" : "Vivo", "price"  : "25000", "stock":"Yes", "img":"https://www.neostore.com.np/assets/uploads/s23.jpg"}
-    ]
-  }
+  "users": [
+    {
+      "id": "1",
+      "inCart": false,
+      "name": "Iris Q12",
+      "Company": "Iris",
+      "price": "50000",
+      "stock": "Yes",
+      "img": "https://api.thechennaimobiles.com/1719121334790.webp"
+    },
+    {
+      "id": "2",
+      "inCart": false,
+      "name": "Nokia W23",
+      "Company": "Nokia",
+      "price": "10000",
+      "stock": "No",
+      "img": "https://www.top10mobileshop.com/images/top10mobiles.com/thumbnail/product/2024/08/795330468202408120724.jpg"
+    },
+    {
+      "id": "3",
+      "inCart": false,
+      "name": "Techno E34",
+      "Company": "Techno",
+      "price": "20000",
+      "stock": "No",
+      "img": "https://www.samsungplaza.com.np/public/files/437D725739BA59F-SM-F956_ZFold6_Openback.png"
+    },
+    {
+      "id": "4",
+      "inCart": false,
+      "name": "Oppo R45",
+      "Company": "Oppo",
+      "price": "30000",
+      "stock": "Yes",
+      "img": "https://www.neostore.com.np/assets/uploads/s23.jpg"
+    },
+    {
+      "id": "5",
+      "inCart": false,
+      "name": "Vivo T56",
+      "Company": "Vivo",
+      "price": "40000",
+      "stock": "Yes",
+      "img": "https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"
+    },
+    {
+      "id": "6",
+      "inCart": false,
+      "name": "IPhone Y67",
+      "Company": "IPhone",
+      "price": "50000",
+      "stock": "No",
+      "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"
+    },
+    {
+      "id": "7",
+      "inCart": false,
+      "name": "Jio U78",
+      "Company": "Jio",
+      "price": "60000",
+      "stock": "Yes",
+      "img": "https://singhagiri-prod.s3.us-east-1.amazonaws.com/products/thumbnails/Untitled%20design%20(40).webp"
+    },
+    {
+      "id": "8",
+      "inCart": false,
+      "name": "Iris I89",
+      "Company": "Iris",
+      "price": "70000",
+      "stock": "Yes",
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-16-Pro-Max/Desert-Titanium/Apple-iPhone-16-Pro-Max-Desert-Titanium-thumbnail.png"
+    },
+    {
+      "id": "9",
+      "inCart": false,
+      "name": "Techno P90",
+      "Company": "Techno",
+      "price": "80000",
+      "stock": "No",
+      "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"
+    },
+    {
+      "id": "9",
+      "inCart": false,
+      "name": "Techno O91",
+      "Company": "Techno",
+      "price": "80000",
+      "stock": "No",
+      "img": "https://s3.ap-south-1.amazonaws.com/happimobiles/product-main-images/happi_mobiles_redmi_a3x_5g_ocean_green_main_image.webp"
+    },
+    {
+      "id": "10",
+      "inCart": false,
+      "name": "Oppo A12",
+      "Company": "Oppo",
+      "price": "90000",
+      "stock": "No",
+      "img": "https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"
+    },
+    {
+      "id": "11",
+      "inCart": false,
+      "name": "Vivo R72",
+      "Company": "Vivo",
+      "price": "25000",
+      "stock": "Yes",
+      "img": "https://www.neostore.com.np/assets/uploads/s23.jpg"
+    },
+    {
+      "id": "12",
+      "inCart": false,
+      "name": "Iris D82",
+      "Company": "Iris",
+      "price": "50000",
+      "stock": "Yes",
+      "img": "https://api.thechennaimobiles.com/1719121334790.webp"
+    },
+    {
+      "id": "13",
+      "inCart": false,
+      "name": "Nokia S22",
+      "Company": "Nokia",
+      "price": "10000",
+      "stock": "No",
+      "img": "https://www.top10mobileshop.com/images/top10mobiles.com/thumbnail/product/2024/08/795330468202408120724.jpg"
+    },
+    {
+      "id": "14",
+      "inCart": false,
+      "name": "Techno L09",
+      "Company": "Techno",
+      "price": "20000",
+      "stock": "No",
+      "img": "https://www.samsungplaza.com.np/public/files/437D725739BA59F-SM-F956_ZFold6_Openback.png"
+    },
+    {
+      "id": "15",
+      "inCart": false,
+      "name": "Oppo S22",
+      "Company": "Oppo",
+      "price": "30000",
+      "stock": "Yes",
+      "img": "https://www.neostore.com.np/assets/uploads/s23.jpg"
+    },
+    {
+      "id": "16",
+      "inCart": false,
+      "name": "Vivo F46",
+      "Company": "Vivo",
+      "price": "40000",
+      "stock": "Yes",
+      "img": "https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"
+    },
+    {
+      "id": "17",
+      "inCart": false,
+      "name": "IPhone H89",
+      "Company": "IPhone",
+      "price": "50000",
+      "stock": "No",
+      "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"
+    },
+    {
+      "id": "18",
+      "inCart": false,
+      "name": "Jio M87",
+      "Company": "Jio",
+      "price": "60000",
+      "stock": "Yes",
+      "img": "https://singhagiri-prod.s3.us-east-1.amazonaws.com/products/thumbnails/Untitled%20design%20(40).webp"
+    },
+    {
+      "id": "19",
+      "inCart": false,
+      "name": "Iris S22",
+      "Company": "Iris",
+      "price": "70000",
+      "stock": "Yes",
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-16-Pro-Max/Desert-Titanium/Apple-iPhone-16-Pro-Max-Desert-Titanium-thumbnail.png"
+    },
+    {
+      "id": "20",
+      "inCart": false,
+      "name": "Techno N87",
+      "Company": "Techno",
+      "price": "80000",
+      "stock": "No",
+      "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra.jpg"
+    },
+    {
+      "id": "21",
+      "inCart": false,
+      "name": "Techno T51",
+      "Company": "Techno",
+      "price": "80000",
+      "stock": "No",
+      "img": "https://s3.ap-south-1.amazonaws.com/happimobiles/product-main-images/happi_mobiles_redmi_a3x_5g_ocean_green_main_image.webp"
+    },
+    {
+      "id": "22",
+      "inCart": false,
+      "name": "Oppo E32",
+      "Company": "Oppo",
+      "price": "90000",
+      "stock": "No",
+      "img": "https://www.samsungplaza.com.np/public/files/F44F8DE4D633B8E-SM-M556_Light-Green.png"
+    },
+    {
+      "id": "23",
+      "inCart": false,
+      "name": "Vivo K12",
+      "Company": "Vivo",
+      "price": "25000",
+      "stock": "Yes",
+      "img": "https://www.neostore.com.np/assets/uploads/s23.jpg"
+    }
+  ],
+  "login": [
+    {
+      "id": "9c94",
+      "username": "admin",
+      "password": "admin123",
+      "token": "a651e4c6-3319-490f-aab6-54a665bc626b"
+    },
+    {
+      "id": "2d39",
+      "username": "awdajwnda",
+      "password": "jsenfjsenfjs",
+      "token": "137d61f2-a3e3-4055-afe2-494bffbc1faa"
+    },
+    {
+      "id": "a39c",
+      "username": "harshal",
+      "password": "harshal123",
+      "token": "6ac45c41-96d6-4928-8cdb-38e7de6734b5"
+    },
+    {
+      "id": "749b",
+      "username": "prajwal",
+      "password": "shelar123",
+      "token": "0bcf3078-c887-44c2-9dad-8eb47384cbd6"
+    },
+    {
+      "id": "0c7f",
+      "username": "intellect",
+      "password": "intellect123",
+      "token": "7b30252b-f36c-4c80-b606-2e7353525acd"
+    }
+  ]
+}
