@@ -247,6 +247,12 @@
       "username": "intellect",
       "password": "intellect123",
       "token": "7b30252b-f36c-4c80-b606-2e7353525acd"
+    },
+    {
+      "id": "d53c",
+      "username": "admin",
+      "password": "admin123",
+      "token": "d3da73af-db71-4c5c-bdca-f05a96226d5b"
     }
   ]
 }

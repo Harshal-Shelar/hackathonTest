@@ -17,7 +17,6 @@ export class AuthService {
   setItem(key: string, value: string): void {
     if (isPlatformBrowser(this.platformId)) {
       sessionStorage.setItem(key, value);
-      console.log("session Printed ")
     }
   }
 
